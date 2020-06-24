@@ -1,0 +1,50 @@
+\documentclass{article}
+
+% set font encoding for PDFLaTeX, XeLaTeX, or LuaTeX
+\usepackage{ifxetex,ifluatex}
+\if\ifxetex T\else\ifluatex T\else F\fi\fi T%
+  \usepackage{fontspec}
+\else
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{lmodern}
+\fi
+
+\usepackage{hyperref}
+\usepackage{amsmath,amssymb}
+\usepackage{header}
+
+\title{Game Environments}
+\author{ben}
+
+% Enable SageTeX to run SageMath code right inside this LaTeX file.
+% http://doc.sagemath.org/html/en/tutorial/sagetex.html
+% \usepackage{sagetex}
+
+% Enable PythonTeX to run Python – https://ctan.org/pkg/pythontex
+% \usepackage{pythontex}
+
+\begin{document}
+\maketitle
+
+\section{Linear Quadratic Game}
+
+Consider $n$-player dynamic game with state evolution
+\[
+x_{t+1} = Ax_t + B_1 u_{1,t} + \cdots + B_n u_{n,t}
+\]
+and costs
+\[
+c_i(x,u_1,\dots,u_n) = \sum_{t=0}^T x_t^\top Q_i x_t + \sum_{j=1}^n u_{j,t}^\top R_{ij} u_{j,t}
+\]
+where 
+$x_t \in\R^{\tt n\_state}=\R^{n_s}$, 
+$u_{i,t}\in \R^{{\tt n\_action}_i}=\R^{n_{ai}}$, 
+$Q_i \in \R^{n_s\times n_s}$ is symmetric,
+$R_{ij} \in \R^{n_{aj}\times n_{aj}}$.
+
+For zero-sum games, $n=2$ and $Q_1=-Q_2 > 0$, $R_{ij} = -R_{ji} > 0 $.
+
+We store $(x_t, u_{1,t}, \cdots, u_{n,t}, x_{t+1})$ state action pairs
+
+\end{document}
