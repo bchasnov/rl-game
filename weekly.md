@@ -10,3 +10,6 @@
 - Gradient perturbation controller @zanedma
 - Forked competitive policy optimization (copg) repo @JWongDude
 - Running experiments in spinning up @singerGUO
+
+### Week 3
+- Stackelberg Actor Critic implementation. [Issue link.](https://github.com/bchasnov/stackgrad/issues/3) @bchasnov
