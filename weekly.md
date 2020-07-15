@@ -14,3 +14,7 @@
 ### Week 3
 - Stackelberg Actor Critic implementation. [Issue link.](https://github.com/bchasnov/stackgrad/issues/3) @bchasnov
 - Wrote tests for LinearQuadraticGame using different hyperparams. Additionally, updated and corrected the     LinearQuadraticGame class. [Issue link.](https://github.com/bchasnov/stackgrad/issues/1)@zanedma
+
+- Add Cartpole, MountainCar and LunarLander to the Env. Ran Experiments with grids in custom enviroments of cartpole, Plot and viualize the policy 
+. [Issue link.](https://github.com/singerGUO/gym_multiagent_control/issues/1)@singerGUO
+
