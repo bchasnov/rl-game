@@ -17,4 +17,4 @@
 
 - Add Cartpole, MountainCar and LunarLander to the Env. Ran Experiments with grids in custom enviroments of cartpole, Plot and viualize the policy 
 . [Issue](https://github.com/singerGUO/gym_multiagent_control/issues/1) @singerGUO
-- Reviewed Multivariable Calculus, implemented analytical gradient, and learning pytorch. [Issue](https://github.com/bchasnov/stackgrad/issues/2)
+- Reviewed Multivariable Calculus, implemented analytical gradient, and learning pytorch. [Issue](https://github.com/bchasnov/stackgrad/issues/2) @JWongDude
