@@ -13,4 +13,4 @@
 
 ### Week 3
 - Stackelberg Actor Critic implementation. [Issue link.](https://github.com/bchasnov/stackgrad/issues/3) @bchasnov
-- Wrote tests for LinearQuadraticGame using different hyperparams. Additionally, updated and corrected the     LinearQuadraticGame class. @zanedma
+- Wrote tests for LinearQuadraticGame using different hyperparams. Additionally, updated and corrected the     LinearQuadraticGame class. [Issue link.](https://github.com/bchasnov/stackgrad/issues/1)@zanedma
