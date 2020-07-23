@@ -18,3 +18,6 @@
 - Add Cartpole, MountainCar and LunarLander to the Env. Ran Experiments with grids in custom enviroments of cartpole, Plot and viualize the policy 
 . [Issue](https://github.com/singerGUO/gym_multiagent_control/issues/1) @singerGUO
 - Reviewed Multivariable Calculus, implemented analytical gradient, and learning pytorch. [Issue](https://github.com/bchasnov/stackgrad/issues/2) @JWongDude
+
+### Week 4
+- Updated LQ game to fit `gym.Env` specifications to make ready for VPG integration. [Issue](https://github.com/zanedma/reinforcement_lqgame/issues/2). Begin updating (VPG)[https://github.com/bchasnov/spinningup/blob/master/spinup/algos/pytorch/vpg/vpg.py] to work with multiple players and our LQ game. (Issue)[https://github.com/zanedma/reinforcement_lqgame/issues/1]. @zanedma
